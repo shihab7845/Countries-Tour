@@ -1,0 +1,38 @@
+
+.countries-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 16px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.btn-style {
+   
+    background-color: #007BFF; 
+    border: 2px solid rgb(0, 255, 132);
+    color: black; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    
+
+
+/* Add a hover effect for the button */
+.button:hover {
+    background-color: #0056b3; 
+}
+
+}
+
+.card {
+    border: 2px solid tomato;
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+.visited{
+    background:bisque;
+}
